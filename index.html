@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Bean Recommendations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1511920170033-f8396924c348?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNvZmZlZXxlbnwwfHx8fDE2NTYyNDA1NTQ&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+            color: white;
+            padding: 5em 0;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            font-weight: 700;
+            text-shadow: 2px 2px #000;
+        }
+        header p {
+            font-size: 1.7em;
+            margin-top: 0.5em;
+            font-weight: 400;
+            text-shadow: 1px 1px #000;
+        }
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 0.5em 1em;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+        main {
+            padding: 20px;
+        }
+        video {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .btn {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coffee Bean Recommendations</h1>
+        <p>Your Guide to the Best Coffee Beans</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#recommendations">Recommendations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <video src="video.mp4" autoplay loop muted playsinline></video>
+        <a href="content.html" class="btn">Learn More</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Coffee Bean Recommendations. All rights reserved.</p>
+    </footer>
+</body>
+</html>
